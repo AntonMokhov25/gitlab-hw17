@@ -55,9 +55,8 @@
 <img width="1482" height="141" alt="image" src="https://github.com/user-attachments/assets/934e6bdc-4053-4bf3-b592-5106d8cb9f7a" />
 7. <img width="1681" height="1001" alt="image" src="https://github.com/user-attachments/assets/5660bf55-820e-42b1-9719-5e25103af62f" />
 <img width="1050" height="69" alt="image" src="https://github.com/user-attachments/assets/2ff9d326-d602-4066-b182-75f71d0e0cf1" />
+<img width="1850" height="963" alt="image" src="https://github.com/user-attachments/assets/8d73903e-97fa-402c-9ac1-3f0994404fb5" />
 
-
-    <img width="1820" height="921" alt="image" src="https://github.com/user-attachments/assets/84447daa-a1ad-4efe-86ad-2ccd1045d7e8" />
 8. Docker-образ nginx:latest не был удалён после terraform destroy, потому что в ресурсе docker_image в файле main.tf установлен параметр keep_locally = true. Согласно официальной документации провайдера kreuzwerker/docker (раздел resource docker_image, атрибут keep_locally): "If set to true, the image will not be removed from the local Docker daemon when the resource is destroyed." Этот параметр предназначен для сохранения образов локально, чтобы избежать повторной загрузки при следующем развёртывании инфраструктуры.
 
 
